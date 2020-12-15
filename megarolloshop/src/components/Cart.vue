@@ -7,9 +7,6 @@
            <button @click="$emit('remove-item', item.id)">Remove</button></h3>
            
         </div>
-        <div>
-            <h2>Total: PLN</h2>
-        </div>
         <!-- <button @click="removeCertain">Remove certain dishes</button> -->
         <button @click="$emit('remove-all')">Clear the cart</button>
     </div>
